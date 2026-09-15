@@ -1,0 +1,14 @@
+# Kết nối PostgreSQL
+psycopg2-binary>=2.9,<3.0
+SQLAlchemy>=2.0,<3.0
+
+# Xử lý dữ liệu
+pandas>=2.0,<3.0
+pyarrow>=14.0
+
+# BigQuery
+google-cloud-bigquery>=3.11,<4.0
+db-dtypes>=1.2
+
+# Đọc file .env
+python-dotenv>=1.0
