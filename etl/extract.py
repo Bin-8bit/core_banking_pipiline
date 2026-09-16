@@ -1,10 +1,3 @@
-"""
-extract.py — Đọc dữ liệu từ PostgreSQL nguồn (core_banking).
-
-Chịu trách nhiệm duy nhất: lấy dữ liệu thô ra khỏi Postgres.
-Không transform, không biết gì về BigQuery — đúng tinh thần tầng Bronze.
-"""
-
 import logging
 
 import pandas as pd

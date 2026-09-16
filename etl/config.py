@@ -1,10 +1,3 @@
-"""
-config.py — Tập trung toàn bộ cấu hình của pipeline.
-
-Đọc biến môi trường từ file .env (nếu có), validate các giá trị bắt buộc,
-và khai báo danh sách bảng cần migrate.
-"""
-
 import os
 from pathlib import Path
 
